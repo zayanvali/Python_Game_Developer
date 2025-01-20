@@ -24,3 +24,8 @@ print(sample.values())
 
 # Accessing all items
 print(sample.items())
+
+# Deleting an item from dictionary
+del sample["Count"]
+
+print(sample)
